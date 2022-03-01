@@ -9,12 +9,10 @@
     - name: Install NVM
       shell: >
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-      args:
-        creates: "{{ ansible_env.HOME }}/.nvm/nvm.sh"
       no_log: True
 
     - name: Install NodeJs
-      shell: "{{ ansible_env.HOME }}/.nvm/nvm.sh install {{ NODEJS_VERSION }}"
+      shell: "nvm install {{ NODEJS_VERSION }}"
 
     - name: Install yarn
       shell: npm install yarn -g
