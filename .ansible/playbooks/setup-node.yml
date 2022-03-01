@@ -19,8 +19,8 @@
         export NVM_DIR="{{ ansible_env.HOME }}/.nvm"
         nvm install {{ NODEJS_VERSION }}
 
-    - name: Install yarn
-      shell: npm install yarn -g
-
-    - name: Install pm2
-      shell: yarn global add pm2
+    - name: Install global node packages
+      shell:"{{ ansible_env.HOME }}/.nvm/versions/node/$(nvm current)/bin/npm install {{item}} -g
+      with_items:
+        - yarn
+        - pm2
