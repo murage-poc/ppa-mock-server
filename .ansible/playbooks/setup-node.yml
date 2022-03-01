@@ -1,7 +1,7 @@
 ---
 - hosts: all
   gather_facts: true
-  become: true
+  become: false
   vars:
     NODEJS_VERSION: "14"
   tasks:
