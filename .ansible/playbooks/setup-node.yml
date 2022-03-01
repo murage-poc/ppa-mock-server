@@ -14,8 +14,7 @@
       no_log: True
 
     - name: Install NodeJs
-      shell: |
-        nvm install {{NODEJS_VERSION}}
+      shell: "nvm install {{ NODEJS_VERSION }}"
       no_log: True
 
     - name: Install yarn
