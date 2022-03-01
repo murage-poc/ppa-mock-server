@@ -1,0 +1,50 @@
+---
+- name: Deploy artifact and start the server
+  become: true
+  gather_facts: false
+  hosts: all
+
+  tasks:
+    - name: Generate timestamp for deployment use
+      ansible.builtin.shell:
+        cmd: echo $(date +%s)
+      register: global_timestamp
+
+    #create current deployment folder
+    - name: Create project deployment directory
+      ansible.builtin.file:
+        path: "{{remote_workspace}}/{{global_timestamp.stdout}}"
+        state: directory
+        mode: '0755'
+        follow: false
+        owner: "{{remote_owner_group}}"
+        group: "{{remote_owner_group}}"
+      register: project_remote
+      no_log: True
+
+    - name: Copy new application files to deployment path
+      ansible.posix.synchronize:
+        src: "{{local_workspace}}/"
+        dest: "{{project_remote.path}}/"
+        delete: yes
+        recursive: yes
+        perms: yes
+        owner: no
+        group: no
+        rsync_opts:
+          - "--exclude-from={{local_workspace}}/.ansible/files/rsync.ignore"
+      no_log: True
+
+    #Set uploaded version as current
+    - name: "Link recent version to current folder"
+      ansible.builtin.file:
+        src: "{{project_remote.path}}/"
+        dest: "{{remote_path}}/current"
+        state: link
+        force: yes
+
+    - name: Start PM2 server
+      shell: |
+        yarn pm2 > /dev/null
+      args:
+        chdir: "{{project_remote.path}}/current"

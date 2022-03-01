@@ -2,7 +2,8 @@
   "name": "api-mock-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "pm2": "pm2 start --name ppwa-mocker-server index.js --watch  --ignore-watch='node_modules'"
   },
   "dependencies": {
     "json-server": "^0.17.0"

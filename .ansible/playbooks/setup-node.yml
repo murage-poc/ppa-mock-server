@@ -1,0 +1,16 @@
+---
+- hosts: all
+  gather_facts: true
+  become: true
+  vars:
+    NODEJS_VERSION: "14"
+  tasks:
+    - name: Install Node Js
+      shell: |
+        curl -fsSL https://deb.nodesource.com/setup_{{NODEJS_VERSION}}.x | sudo -E bash -
+        sudo apt-get install -y nodejs
+    - name: Install yarn
+      shell: npm install yarn -g
+
+    - name: Install pm2
+      shell: yarn global add pm2
