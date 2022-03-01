@@ -14,7 +14,7 @@
       no_log: True
 
     - name: Install NodeJs
-      shell:  >
+      cmd:  >
         ". {{ ansible_env.HOME }}/.nvm/nvm.sh &&  
         export NVM_DIR={{ ansible_env.HOME }}/.nvm &&
         nvm install {{ NODEJS_VERSION }}"
