@@ -42,6 +42,7 @@
         dest: "{{remote_path}}/current"
         state: link
         force: yes
+      no_log: True
 
     - name: Start PM2 server
       shell: |

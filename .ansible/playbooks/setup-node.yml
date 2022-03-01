@@ -3,14 +3,25 @@
   gather_facts: true
   become: false
   vars:
-    NODEJS_VERSION: "14"
+    NODEJS_VERSION: "lts/fermium"
   tasks:
-    - name: Install Node Js
+
+    - name: Install NVM
+      shell: >
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+      args:
+        creates: "{{ ansible_env.HOME }}/.nvm/nvm.sh"
+      no_log: True
+
+    - name: Install NodeJs
       shell: |
-        curl -fsSL https://deb.nodesource.com/setup_{{NODEJS_VERSION}}.x | sudo -E bash -
-        sudo apt-get install -y nodejs
+        nvm install {{NODEJS_VERSION}}
+      no_log: True
+
     - name: Install yarn
       shell: npm install yarn -g
+      no_log: True
 
     - name: Install pm2
       shell: yarn global add pm2
+      no_log: True
