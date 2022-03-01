@@ -15,7 +15,6 @@
 
     - name: Install NodeJs
       shell: "nvm install {{ NODEJS_VERSION }}"
-      no_log: True
 
     - name: Install yarn
       shell: npm install yarn -g
