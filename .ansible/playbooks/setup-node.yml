@@ -14,10 +14,10 @@
       no_log: True
 
     - name: Install NodeJs
-      shell: |
-        ". {{ ansible_env.HOME }}/.nvm/nvm.sh"
-        export NVM_DIR="{{ ansible_env.HOME }}/.nvm"
-        "nvm install {{ NODEJS_VERSION }}"
+      shell:  >
+        ". {{ ansible_env.HOME }}/.nvm/nvm.sh &&  
+        export NVM_DIR={{ ansible_env.HOME }}/.nvm &&
+        nvm install {{ NODEJS_VERSION }}"
 
     - name: Install yarn
       shell: npm install yarn -g
