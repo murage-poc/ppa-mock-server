@@ -21,8 +21,6 @@
 
     - name: Install yarn
       shell: npm install yarn -g
-      no_log: True
 
     - name: Install pm2
       shell: yarn global add pm2
-      no_log: True
