@@ -1,0 +1,16 @@
+/.ansible
+/.github
+/.git
+
+.env-enc
+.env-example
+.env.example
+.env
+.env-dev
+.editorconfig
+.styleci.yml
+yarn.lock
+.gitattributes
+.gitignore
+readme.md
+/tests
