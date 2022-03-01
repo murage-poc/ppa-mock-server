@@ -1,0 +1,235 @@
+{
+   "clients": [
+      {
+         "id": "Em34PuZA0jbs04",
+         "parent_id": null,
+         "name": "Cooperative Bank",
+         "branch": "HQ-Co-operative House",
+         "location": "Haile Selassie Avenue, Nairobi",
+         "region": "Nairobi",
+         "contracts_total": 3,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "6mKy1FhLWuQVZ0O",
+         "parent_id": "Em34PuZA0jbs04",
+         "name": "Cooperative Bank",
+         "branch": "Mlolongo",
+         "location": "",
+         "region": "Nairobi",
+         "contracts_total": 3,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "OZvFAdU1nkYWl6Vb",
+         "parent_id": "Em34PuZA0jbs04",
+         "name": "Cooperative Bank",
+         "branch": "Athi river",
+         "location": "",
+         "region": "Nairobi",
+         "contracts_total": 3,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "FNP40i8fecjaZON3",
+         "parent_id": null,
+         "name": "National Bank",
+         "branch": "Head Office",
+         "location": "National Bank Building, Harambee Avenue",
+         "region": "Nairobi",
+         "contracts_total": 0,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "ZGqPFhVBNmv0dqAv",
+         "parent_id": "FNP40i8fecjaZON3",
+         "name": "National Bank",
+         "branch": "Kitengela",
+         "location": "",
+         "region": "Nairobi",
+         "contracts_total": 0,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "hMu91M6IeGHTJGQi",
+         "parent_id": "FNP40i8fecjaZON3",
+         "name": "National Bank",
+         "branch": "Karatina",
+         "location": "",
+         "region": "Thika",
+         "contracts_total": 0,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      },
+      {
+         "id": "54CAQUC07cRAWwI1",
+         "parent_id": "FNP40i8fecjaZON3",
+         "name": "National Bank",
+         "branch": "Nyeri",
+         "location": "",
+         "region": "Central East",
+         "contracts_total": 0,
+         "created_by_id": "",
+         "created_at": "new Date().toLocaleDateString()"
+      }
+   ],
+   "products": [
+      {
+         "id": "MoIMeL4PvL10rdqp",
+         "item_code": "MDTEQNC71O-083",
+         "mpn": "NC7100",
+         "description": "NC7100",
+         "eoq": 35,
+         "minl": 20,
+         "rol": 50,
+         "maxl": 70,         "item_code": "MDTEQNC650-082",
+
+         "created_by_id": "vuznDU73IoNqkJxg"
+      },
+      {
+         "id": "v1dxR1AHu9tUtAfG",
+         "mpn": "NC-6500",
+         "description": "NC-6500",
+         "eoq": 20,
+         "minl": 10,
+         "rol": 30,
+         "maxl": 40,
+         "created_by_id": "vuznDU73IoNqkJxg"
+      },
+      {
+         "id": "8k2GL8uMjqY3UVkM",
+         "item_code": "MDTEQNC95-087",
+         "mpn": "NC-9500",
+         "description": "NC-9500",
+         "eoq": 35,
+         "minl": 30,
+         "rol": 50,
+         "maxl": 70,
+         "created_by_id": "vuznDU73IoNqkJxg"
+      },
+      {
+         "id": "Lfik2R1H8tAZG1bm",
+         "item_code": "MDTSPNC710-001",
+         "mpn": "EANC7101IO0122",
+         "parent_id": "MoIMeL4PvL10rdqp",
+         "description": "PCBA,IO",
+         "eoq": 35,
+         "minl": 20,
+         "rol": 50,
+         "maxl": 70,
+         "created_by_id": "vuznDU73IoNqkJxg"
+      },
+      {
+         "id": "nXvj2dXf4qtmYTvX",
+         "parent_id": "v1dxR1AHu9tUtAfG",
+         "item_code": "MDTSPNC3A2-002",
+         "mpn": "3A2BPSC1G-B070",
+         "description": "IMAGE SENSOR MC06H-Z07",
+         "eoq": 20,
+         "minl": 10,
+         "rol": 30,
+         "maxl": 40,
+         "created_by_id": "vuznDU73IoNqkJxg"
+      },
+      {
+         "id": "IRmONeq5nUfSjP7p",
+         "parent_id": "8k2GL8uMjqY3UVkM",
+         "item_code": "MDTSPNCZ00-029",
+         "mpn": "C-Z00003",
+         "description": "PRINTER INTERFACE CABLES (FOR TP30A)",
+         "eoq": 35,
+         "minl": 30,
+         "rol": 50,
+         "maxl": 70,
+         "created_by_id": "vuznDU73IoNqkJxg"
+      }
+   ],
+   "product-serials": [
+      {
+         "id": "TVMwAl4nfOhb5Tn9",
+         "product_id": "MoIMeL4PvL10rdqp",
+         "serial_number": "serial-number-0001",
+         "created_by_id": "m6TzUZoYNJpgprUQ",
+         "created_at": "1646076703135"
+      }
+   ],
+   "users": [
+      {
+         "id": "m6TzUZoYNJpgprUQ",
+         "first_name": "James",
+         "last_name": "Mokami",
+         "email": "james@email.com",
+         "role": {
+            "id": "fLJqYgH2yEOHjNz8",
+            "name": "System admin",
+            "description": "The overall admin",
+            "permissions": []
+         },
+         "role_id": "fLJqYgH2yEOHjNz8",
+         "status": 1
+      },
+      {
+         "id": "vuznDU73IoNqkJxg",
+         "first_name": "Leonard",
+         "last_name": "Wachira",
+         "email": "eachira@email.com",
+         "role": {
+            "id": "ImaMkvtYJ8aGhd9b",
+            "name": "Field Engineer",
+            "description": "The field engineer",
+            "permissions": []
+         },
+         "role_id": "ImaMkvtYJ8aGhd9b",
+         "status": 0
+      },
+      {
+         "id": "gHjxTde1dWIKBGJO",
+         "first_name": "Jane",
+         "last_name": "Waithera",
+         "email": "janew@email.com",
+         "role": {
+            "id": "ImaMkvtYJ8aGhd9b",
+            "name": "Field Engineer",
+            "description": "The field engineer",
+            "permissions": []
+         },
+         "role_id": "ImaMkvtYJ8aGhd9b",
+         "status": 2
+      }
+   ],
+   "created_by": [
+      {
+         "id": "m6TzUZoYNJpgprUQ",
+         "first_name": "James",
+         "last_name": "Mokami",
+         "email": "james@email.com",
+         "role": {
+            "id": "fLJqYgH2yEOHjNz8",
+            "name": "System admin",
+            "description": "The overall admin",
+            "permissions": []
+         },
+         "role_id": "fLJqYgH2yEOHjNz8",
+         "status": 1
+      },
+      {
+         "id": "vuznDU73IoNqkJxg",
+         "first_name": "Leonard",
+         "last_name": "Wachira",
+         "email": "eachira@email.com",
+         "role": {
+            "id": "ImaMkvtYJ8aGhd9b",
+            "name": "Field Engineer",
+            "description": "The field engineer",
+            "permissions": []
+         },
+         "role_id": "ImaMkvtYJ8aGhd9b",
+         "status": 0
+      }
+   ]
+}
