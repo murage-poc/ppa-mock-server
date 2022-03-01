@@ -20,7 +20,7 @@
         nvm install {{ NODEJS_VERSION }}
 
     - name: Install global node packages
-      shell:"{{ ansible_env.HOME }}/.nvm/versions/node/$(nvm current)/bin/npm install {{item}} -g
-      with_items:
+      shell:"{{ ansible_env.HOME }}/.nvm/versions/node/$(nvm current)/bin/npm install {{item}} -g"
+      loop:
         - yarn
         - pm2
