@@ -84,11 +84,10 @@
          "item_code": "MDTEQNC71O-083",
          "mpn": "NC7100",
          "description": "NC7100",
-         "eoq": 35,
-         "minl": 20,
-         "rol": 50,
-         "maxl": 70,         "item_code": "MDTEQNC650-082",
-
+         "eoq": 15,
+         "minl": 10,
+         "rol": 20,
+         "maxl": 50,         
          "created_by_id": "vuznDU73IoNqkJxg"
       },
       {
@@ -106,7 +105,7 @@
          "item_code": "MDTEQNC95-087",
          "mpn": "NC-9500",
          "description": "NC-9500",
-         "eoq": 35,
+         "eoq": 45,
          "minl": 30,
          "rol": 50,
          "maxl": 70,
@@ -154,6 +153,20 @@
          "id": "TVMwAl4nfOhb5Tn9",
          "product_id": "MoIMeL4PvL10rdqp",
          "serial_number": "serial-number-0001",
+         "created_by_id": "m6TzUZoYNJpgprUQ",
+         "created_at": "1646076703135"
+      },
+      {
+         "id": "vDuCLzMwKaQOCmIT",
+         "product_id": "MoIMeL4PvL10rdqp",
+         "serial_number": "serial-number-3001",
+         "created_by_id": "m6TzUZoYNJpgprUQ",
+         "created_at": "1646076703135"
+      },
+      {
+         "id": "WhDcmTw6VjswN88q",
+         "product_id": "MoIMeL4PvL10rdqp",
+         "serial_number": "serial-number-5001",
          "created_by_id": "m6TzUZoYNJpgprUQ",
          "created_at": "1646076703135"
       }
@@ -231,5 +244,144 @@
          "role_id": "ImaMkvtYJ8aGhd9b",
          "status": 0
       }
+   ],
+   "stock-ledger":[
+      {
+         "id":"20wie3e",
+         "upc": "1679601-ZZZL",
+         "product_id":"MoIMeL4PvL10rdqp",
+         "stock_in":23,
+         "stock_out":0,
+         "physical_balance" : 23,
+         "issue_requests_created":0,
+         "issue_requests_rejected":0,
+         "virtual_balance": 23,
+         "transaction_type":"checkin",
+         "transaction_id": "rfwefweu8eio",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076703135"
+      },
+      {
+         "id":"dqwwf",
+         "upc": "1679601-ZZZL",
+         "product_id":"MoIMeL4PvL10rdqp",
+         "stock_in":0,
+         "stock_out":0,
+         "physical_balance" : 23,
+         "issue_requests_created":10,
+         "issue_requests_rejected":0,
+         "virtual_balance": 13,
+         "transaction_type":"issue request",
+         "transaction_id":"getrefeweewf",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076706135"
+      }
+      ,
+      {
+         "id":"dqwwf",
+         "upc":"1679602-ZZZM",
+         "product_id":"nXvj2dXf4qtmYTvX",
+         "stock_in":17,
+         "stock_out":0,
+         "physical_balance" : 17,
+         "issue_requests_created":0,
+         "issue_requests_rejected":0,
+         "virtual_balance": 17,
+         "transaction_type":"checkin",
+         "transaction_id":"fefwefwfwew",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076706135"
+      },
+      {
+         "id":"eufheui",
+         "upc":"1679602-ZZZM",
+         "product_id":"nXvj2dXf4qtmYTvX",
+         "stock_in":0,
+         "stock_out":0,
+         "physical_balance" : 17,
+         "issue_requests_created":10,
+         "issue_requests_rejected":0,
+         "virtual_balance": 7,
+         "transaction_type":"issue_request",
+         "transaction_id":"jfvirjefw",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076706135"
+      },
+      {
+         "id":"dhiwfe",
+         "upc":"1679602-ZZZM",
+         "product_id":"nXvj2dXf4qtmYTvX",
+         "stock_in":0,
+         "stock_out":4,
+         "physical_balance" : 17,
+         "issue_requests_created":0,
+         "issue_requests_rejected":3,
+         "virtual_balance": 10,
+         "transaction_type":"checkout",
+         "transaction_id":"erofedfief3dq",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076706135"
+      },
+      {
+         "id":"dhiwfe",
+         "upc":"1679602-ZZZM",
+         "product_id":"nXvj2dXf4qtmYTvX",
+         "stock_in":0,
+         "stock_out":4,
+         "physical_balance" : 13,
+         "issue_requests_created":0,
+         "issue_requests_rejected":0,
+         "virtual_balance": 10,
+         "transaction_type":"checkout",
+         "transaction_id":"erofedfief3dq",
+         "created_by_id":"m6TzUZoYNJpgprUQ",
+         "created_at":"1646076706135"
+      }
+   ],
+   "stock-balances":[{
+      "id":"dqwwf",
+      "upc": "1679601-ZZZL",
+      "product_id":"MoIMeL4PvL10rdqp",
+      "stock_in":0,
+      "stock_out":0,
+      "physical_balance" : 23,
+      "issue_requests_created":10,
+      "issue_requests_rejected":0,
+      "virtual_balance": 13,
+      "transaction_type":"issue request",
+      "transaction_id":"getrefeweewf",
+      "created_by_id":"m6TzUZoYNJpgprUQ",
+      "created_at":"1646076706135"
+   },
+{
+      "id":"dhiwfe",
+      "upc":"1679602-ZZZM",
+      "product_id":"8k2GL8uMjqY3UVkM",
+      "stock_in":0,
+      "stock_out":4,
+      "physical_balance" : 13,
+      "issue_requests_created":0,
+      "issue_requests_rejected":0,
+      "virtual_balance": 10,
+      "transaction_type":"checkout",
+      "transaction_id":"erofedfief3dq",
+      "created_by_id":"m6TzUZoYNJpgprUQ",
+      "created_at":"1646076706135"
+   },
+   {
+      "id":"ifjiojf4",
+      "upc":"1679602-CZZM",
+      "product_id":"Lfik2R1H8tAZG1bm",
+      "stock_in":30,
+      "stock_out":0,
+      "physical_balance" : 30,
+      "issue_requests_created":0,
+      "issue_requests_rejected":0,
+      "virtual_balance": 0,
+      "transaction_type":"checkin",
+      "transaction_id":"dfnweifnwef",
+      "created_by_id":"m6TzUZoYNJpgprUQ",
+      "created_at":"1646076706135"
+   }
    ]
 }
