@@ -1,387 +1,2412 @@
 {
-   "clients": [
-      {
-         "id": "Em34PuZA0jbs04",
-         "parent_id": null,
-         "name": "Cooperative Bank",
-         "branch": "HQ-Co-operative House",
-         "location": "Haile Selassie Avenue, Nairobi",
-         "region": "Nairobi",
-         "contracts_total": 3,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "6mKy1FhLWuQVZ0O",
-         "parent_id": "Em34PuZA0jbs04",
-         "name": "Cooperative Bank",
-         "branch": "Mlolongo",
-         "location": "",
-         "region": "Nairobi",
-         "contracts_total": 3,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "OZvFAdU1nkYWl6Vb",
-         "parent_id": "Em34PuZA0jbs04",
-         "name": "Cooperative Bank",
-         "branch": "Athi river",
-         "location": "",
-         "region": "Nairobi",
-         "contracts_total": 3,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "FNP40i8fecjaZON3",
-         "parent_id": null,
-         "name": "National Bank",
-         "branch": "Head Office",
-         "location": "National Bank Building, Harambee Avenue",
-         "region": "Nairobi",
-         "contracts_total": 0,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "ZGqPFhVBNmv0dqAv",
-         "parent_id": "FNP40i8fecjaZON3",
-         "name": "National Bank",
-         "branch": "Kitengela",
-         "location": "",
-         "region": "Nairobi",
-         "contracts_total": 0,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "hMu91M6IeGHTJGQi",
-         "parent_id": "FNP40i8fecjaZON3",
-         "name": "National Bank",
-         "branch": "Karatina",
-         "location": "",
-         "region": "Thika",
-         "contracts_total": 0,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
-      },
-      {
-         "id": "54CAQUC07cRAWwI1",
-         "parent_id": "FNP40i8fecjaZON3",
-         "name": "National Bank",
-         "branch": "Nyeri",
-         "location": "",
-         "region": "Central East",
-         "contracts_total": 0,
-         "created_by_id": "",
-         "created_at": "new Date().toLocaleDateString()"
+  "clients": [
+    {
+      "id": "Em34PuZA0jbs04",
+      "parent_id": null,
+      "name": "Cooperative Bank",
+      "branch": "HQ-Co-operative House",
+      "location": "Haile Selassie Avenue, Nairobi",
+      "region": "Nairobi",
+      "contracts_total": 3,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "products": [
-      {
-         "id": "MoIMeL4PvL10rdqp",
-         "item_code": "MDTEQNC71O-083",
-         "mpn": "NC7100",
-         "description": "NC7100",
-         "eoq": 15,
-         "minl": 10,
-         "rol": 20,
-         "maxl": 50,         
-         "created_by_id": "vuznDU73IoNqkJxg"
-      },
-      {
-         "id": "v1dxR1AHu9tUtAfG",
-         "mpn": "NC-6500",
-         "description": "NC-6500",
-         "eoq": 20,
-         "minl": 10,
-         "rol": 30,
-         "maxl": 40,
-         "created_by_id": "vuznDU73IoNqkJxg"
-      },
-      {
-         "id": "8k2GL8uMjqY3UVkM",
-         "item_code": "MDTEQNC95-087",
-         "mpn": "NC-9500",
-         "description": "NC-9500",
-         "eoq": 45,
-         "minl": 30,
-         "rol": 50,
-         "maxl": 70,
-         "created_by_id": "vuznDU73IoNqkJxg"
-      },
-      {
-         "id": "Lfik2R1H8tAZG1bm",
-         "item_code": "MDTSPNC710-001",
-         "mpn": "EANC7101IO0122",
-         "parent_id": "MoIMeL4PvL10rdqp",
-         "description": "PCBA,IO",
-         "eoq": 35,
-         "minl": 20,
-         "rol": 50,
-         "maxl": 70,
-         "created_by_id": "vuznDU73IoNqkJxg"
-      },
-      {
-         "id": "nXvj2dXf4qtmYTvX",
-         "parent_id": "v1dxR1AHu9tUtAfG",
-         "item_code": "MDTSPNC3A2-002",
-         "mpn": "3A2BPSC1G-B070",
-         "description": "IMAGE SENSOR MC06H-Z07",
-         "eoq": 20,
-         "minl": 10,
-         "rol": 30,
-         "maxl": 40,
-         "created_by_id": "vuznDU73IoNqkJxg"
-      },
-      {
-         "id": "IRmONeq5nUfSjP7p",
-         "parent_id": "8k2GL8uMjqY3UVkM",
-         "item_code": "MDTSPNCZ00-029",
-         "mpn": "C-Z00003",
-         "description": "PRINTER INTERFACE CABLES (FOR TP30A)",
-         "eoq": 35,
-         "minl": 30,
-         "rol": 50,
-         "maxl": 70,
-         "created_by_id": "vuznDU73IoNqkJxg"
+    },
+    {
+      "id": "6mKy1FhLWuQVZ0O",
+      "parent_id": "Em34PuZA0jbs04",
+      "name": "Cooperative Bank",
+      "branch": "Mlolongo",
+      "location": "",
+      "region": "Nairobi",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "product-serials": [
-      {
-         "id": "TVMwAl4nfOhb5Tn9",
-         "product_id": "MoIMeL4PvL10rdqp",
-         "serial_number": "serial-number-0001",
-         "created_by_id": "m6TzUZoYNJpgprUQ",
-         "created_at": "1646076703135"
-      },
-      {
-         "id": "vDuCLzMwKaQOCmIT",
-         "product_id": "MoIMeL4PvL10rdqp",
-         "serial_number": "serial-number-3001",
-         "created_by_id": "m6TzUZoYNJpgprUQ",
-         "created_at": "1646076703135"
-      },
-      {
-         "id": "WhDcmTw6VjswN88q",
-         "product_id": "MoIMeL4PvL10rdqp",
-         "serial_number": "serial-number-5001",
-         "created_by_id": "m6TzUZoYNJpgprUQ",
-         "created_at": "1646076703135"
+    },
+    {
+      "id": "OZvFAdU1nkYWl6Vb",
+      "parent_id": "Em34PuZA0jbs04",
+      "name": "Cooperative Bank",
+      "branch": "Athi river",
+      "location": "",
+      "region": "Nairobi",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "users": [
-      {
-         "id": "m6TzUZoYNJpgprUQ",
-         "first_name": "James",
-         "last_name": "Mokami",
-         "email": "james@email.com",
-         "role": {
-            "id": "fLJqYgH2yEOHjNz8",
-            "name": "System admin",
-            "description": "The overall admin",
-            "permissions": []
-         },
-         "role_id": "fLJqYgH2yEOHjNz8",
-         "status": 1
-      },
-      {
-         "id": "vuznDU73IoNqkJxg",
-         "first_name": "Leonard",
-         "last_name": "Wachira",
-         "email": "eachira@email.com",
-         "role": {
-            "id": "ImaMkvtYJ8aGhd9b",
-            "name": "Field Engineer",
-            "description": "The field engineer",
-            "permissions": []
-         },
-         "role_id": "ImaMkvtYJ8aGhd9b",
-         "status": 0
-      },
-      {
-         "id": "gHjxTde1dWIKBGJO",
-         "first_name": "Jane",
-         "last_name": "Waithera",
-         "email": "janew@email.com",
-         "role": {
-            "id": "ImaMkvtYJ8aGhd9b",
-            "name": "Field Engineer",
-            "description": "The field engineer",
-            "permissions": []
-         },
-         "role_id": "ImaMkvtYJ8aGhd9b",
-         "status": 2
+    },
+    {
+      "id": "FNP40i8fecjaZON3",
+      "parent_id": null,
+      "name": "National Bank",
+      "branch": "Head Office",
+      "location": "National Bank Building, Harambee Avenue",
+      "region": "Nairobi",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "created_by": [
-      {
-         "id": "m6TzUZoYNJpgprUQ",
-         "first_name": "James",
-         "last_name": "Mokami",
-         "email": "james@email.com",
-         "role": {
-            "id": "fLJqYgH2yEOHjNz8",
-            "name": "System admin",
-            "description": "The overall admin",
-            "permissions": []
-         },
-         "role_id": "fLJqYgH2yEOHjNz8",
-         "status": 1
-      },
-      {
-         "id": "vuznDU73IoNqkJxg",
-         "first_name": "Leonard",
-         "last_name": "Wachira",
-         "email": "eachira@email.com",
-         "role": {
-            "id": "ImaMkvtYJ8aGhd9b",
-            "name": "Field Engineer",
-            "description": "The field engineer",
-            "permissions": []
-         },
-         "role_id": "ImaMkvtYJ8aGhd9b",
-         "status": 0
+    },
+    {
+      "id": "ZGqPFhVBNmv0dqAv",
+      "parent_id": "FNP40i8fecjaZON3",
+      "name": "National Bank",
+      "branch": "Kitengela",
+      "location": "",
+      "region": "Nairobi",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "stock-ledger":[
-      {
-         "id":"20wie3e",
-         "upc": "1679601-ZZZL",
-         "product_id":"MoIMeL4PvL10rdqp",
-         "stock_in":23,
-         "stock_out":0,
-         "physical_balance" : 23,
-         "issue_requests_created":0,
-         "issue_requests_rejected":0,
-         "virtual_balance": 23,
-         "transaction_type":"checkin",
-         "transaction_id": "rfwefweu8eio",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076703135"
-      },
-      {
-         "id":"dqwwf",
-         "upc": "1679601-ZZZL",
-         "product_id":"MoIMeL4PvL10rdqp",
-         "stock_in":0,
-         "stock_out":0,
-         "physical_balance" : 23,
-         "issue_requests_created":10,
-         "issue_requests_rejected":0,
-         "virtual_balance": 13,
-         "transaction_type":"issue request",
-         "transaction_id":"getrefeweewf",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076706135"
+    },
+    {
+      "id": "hMu91M6IeGHTJGQi",
+      "parent_id": "FNP40i8fecjaZON3",
+      "name": "National Bank",
+      "branch": "Karatina",
+      "location": "",
+      "region": "Thika",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:46:51.401Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-      ,
-      {
-         "id":"dqwwf",
-         "upc":"1679602-ZZZM",
-         "product_id":"nXvj2dXf4qtmYTvX",
-         "stock_in":17,
-         "stock_out":0,
-         "physical_balance" : 17,
-         "issue_requests_created":0,
-         "issue_requests_rejected":0,
-         "virtual_balance": 17,
-         "transaction_type":"checkin",
-         "transaction_id":"fefwefwfwew",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076706135"
-      },
-      {
-         "id":"eufheui",
-         "upc":"1679602-ZZZM",
-         "product_id":"nXvj2dXf4qtmYTvX",
-         "stock_in":0,
-         "stock_out":0,
-         "physical_balance" : 17,
-         "issue_requests_created":10,
-         "issue_requests_rejected":0,
-         "virtual_balance": 7,
-         "transaction_type":"issue_request",
-         "transaction_id":"jfvirjefw",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076706135"
-      },
-      {
-         "id":"dhiwfe",
-         "upc":"1679602-ZZZM",
-         "product_id":"nXvj2dXf4qtmYTvX",
-         "stock_in":0,
-         "stock_out":4,
-         "physical_balance" : 17,
-         "issue_requests_created":0,
-         "issue_requests_rejected":3,
-         "virtual_balance": 10,
-         "transaction_type":"checkout",
-         "transaction_id":"erofedfief3dq",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076706135"
-      },
-      {
-         "id":"dhiwfe",
-         "upc":"1679602-ZZZM",
-         "product_id":"nXvj2dXf4qtmYTvX",
-         "stock_in":0,
-         "stock_out":4,
-         "physical_balance" : 13,
-         "issue_requests_created":0,
-         "issue_requests_rejected":0,
-         "virtual_balance": 10,
-         "transaction_type":"checkout",
-         "transaction_id":"erofedfief3dq",
-         "created_by_id":"m6TzUZoYNJpgprUQ",
-         "created_at":"1646076706135"
+    },
+    {
+      "id": "54CAQUC07cRAWwI1",
+      "parent_id": "FNP40i8fecjaZON3",
+      "name": "National Bank",
+      "branch": "Nyeri",
+      "location": "",
+      "region": "Central East",
+      "contracts_total": 0,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
       }
-   ],
-   "stock-balances":[{
-      "id":"dqwwf",
+    }
+  ],
+  "products": [
+    {
+      "id": "1002",
+      "item_code": "MDTEQNC71O-083",
+      "mpn": "NC7100",
+      "parent_id": null,
+      "description": "NC7100",
+      "eoq": 15,
+      "minl": 10,
+      "rol": 20,
+      "maxl": 50,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "physical_balance": 23,
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1003",
+      "item_code": "NC-6500",
+      "mpn": "NC-6500",
+      "parent_id": null,
+      "description": "NC-6500",
+      "physical_balance": 16,
+      "eoq": 20,
+      "minl": 10,
+      "rol": 30,
+      "maxl": 40,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1001",
+      "item_code": "MDTEQNC95-087",
+      "mpn": "NC-9500",
+      "parent_id": null,
+      "description": "NC-9500",
+      "physical_balance": 2,
+      "eoq": 45,
+      "minl": 30,
+      "rol": 50,
+      "maxl": 70,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1004",
+      "item_code": "MDTSPNC710-001",
+      "mpn": "EANC7101IO0122",
+      "parent_id": "1001",
+      "description": "PCBA,IO",
+      "physical_balance": 9,
+      "eoq": 35,
+      "minl": 20,
+      "rol": 50,
+      "maxl": 70,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1005",
+      "parent_id": "1002",
+      "item_code": "MDTSPNC3A2-002",
+      "mpn": "3A2BPSC1G-B070",
+      "description": "IMAGE SENSOR MC06H-Z07",
+      "physical_balance": 10,
+      "eoq": 20,
+      "minl": 10,
+      "rol": 30,
+      "maxl": 40,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1006",
+      "parent_id": "1003",
+      "item_code": "MDTSPNCZ00-029",
+      "mpn": "C-Z00003",
+      "description": "PRINTER INTERFACE CABLES (FOR TP30A)",
+      "physical_balance": 3,
+      "eoq": 35,
+      "minl": 30,
+      "rol": 50,
+      "maxl": 70,
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "product-serials": [
+    {
+      "id": "1001",
+      "product_id": "1001",
+      "serial_number": "serial-number-0001",
+      "created_by_id": "1001",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "product_id": "1002",
+      "serial_number": "serial-number-3001",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1003",
+      "product_id": "1003",
+      "serial_number": "serial-number-5001",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "1001",
+      "first_name": "James",
+      "last_name": "Mokami",
+      "email": "james@email.com",
+      "role": {
+        "id": "fLJqYgH2yEOHjNz8",
+        "name": "System admin",
+        "description": "The overall admin",
+        "permissions": []
+      },
+      "role_id": "fLJqYgH2yEOHjNz8",
+      "status": 1,
+      "created_at": "2022-03-07T06:48:09.544Z"
+    },
+    {
+      "id": "1002",
+      "first_name": "Leonard",
+      "last_name": "Wachira",
+      "email": "eachira@email.com",
+      "role": {
+        "id": "ImaMkvtYJ8aGhd9b",
+        "name": "Field Engineer",
+        "description": "The field engineer",
+        "permissions": []
+      },
+      "role_id": "ImaMkvtYJ8aGhd9b",
+      "status": 0,
+      "created_at": "2022-03-07T06:48:09.544Z"
+    },
+    {
+      "id": "1003",
+      "first_name": "Sam",
+      "last_name": "Smith",
+      "email": "smith@email.com",
+      "role": {
+        "id": "ImaMkvtYJ8aGhd9b",
+        "name": "Field Engineer",
+        "description": "The field engineer",
+        "permissions": []
+      },
+      "role_id": "ImaMkvtYJ8aGhd9b",
+      "status": 0,
+      "created_at": "2022-03-07T06:48:09.544Z"
+    },
+    {
+      "id": "1004",
+      "first_name": "Wanjiku",
+      "last_name": "Racheal",
+      "email": "rwanjiku@email.com",
+      "role": {
+        "id": "ImaMkvtYJ8aGhd9b",
+        "name": "Field Engineer",
+        "description": "The field engineer",
+        "permissions": []
+      },
+      "role_id": "ImaMkvtYJ8aGhd9b",
+      "status": 0,
+      "created_at": "2022-03-07T06:48:09.544Z"
+    },
+    {
+      "id": "1005",
+      "first_name": "Sophia",
+      "last_name": "Joy",
+      "email": "joy@email.com",
+      "role": {
+        "id": "ImaMkvtYJ8aGhd9b",
+        "name": "Field Engineer",
+        "description": "The field engineer",
+        "permissions": []
+      },
+      "role_id": "ImaMkvtYJ8aGhd9b",
+      "status": 0,
+      "created_at": "2022-03-07T06:48:09.544Z"
+    }
+  ],
+  "stock-ledger": [
+    {
+      "id": "1001",
       "upc": "1679601-ZZZL",
-      "product_id":"MoIMeL4PvL10rdqp",
-      "stock_in":0,
-      "stock_out":0,
-      "physical_balance" : 23,
-      "issue_requests_created":10,
-      "issue_requests_rejected":0,
+      "product_id": "1002",
+      "stock_in": 23,
+      "stock_out": 0,
+      "physical_balance": 23,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 23,
+      "transaction_type": "checkin",
+      "transaction_id": "rfwefweu8eio",
+      "created_by_id": "1002",
+      "created_at": "2022-03-07T06:48:09.544Z",
+      "created_by": {
+        "id": "1002",
+        "first_name": "Leonard",
+        "last_name": "Wachira",
+        "email": "eachira@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "upc": "1679601-ZZZL",
+      "product_id": "1002",
+      "stock_in": 0,
+      "stock_out": 0,
+      "physical_balance": 23,
+      "issue_requests_created": 10,
+      "issue_requests_rejected": 0,
       "virtual_balance": 13,
-      "transaction_type":"issue request",
-      "transaction_id":"getrefeweewf",
-      "created_by_id":"m6TzUZoYNJpgprUQ",
-      "created_at":"1646076706135"
-   },
-{
-      "id":"dhiwfe",
-      "upc":"1679602-ZZZM",
-      "product_id":"8k2GL8uMjqY3UVkM",
-      "stock_in":0,
-      "stock_out":4,
-      "physical_balance" : 13,
-      "issue_requests_created":0,
-      "issue_requests_rejected":0,
+      "transaction_type": "issue request",
+      "transaction_id": "getrefeweewf",
+      "created_by_id": "1002",
+      "created_at": "1646076706135",
+      "created_by": {
+        "id": "1002",
+        "first_name": "Leonard",
+        "last_name": "Wachira",
+        "email": "eachira@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1003",
+      "upc": "1679602-ZZZM",
+      "product_id": "nXvj2dXf4qtmYTvX",
+      "stock_in": 17,
+      "stock_out": 0,
+      "physical_balance": 17,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 17,
+      "transaction_type": "checkin",
+      "transaction_id": "fefwefwfwew",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "1646076706135"
+    },
+    {
+      "id": "1004",
+      "upc": "1679602-ZZZM",
+      "product_id": "nXvj2dXf4qtmYTvX",
+      "stock_in": 0,
+      "stock_out": 0,
+      "physical_balance": 17,
+      "issue_requests_created": 10,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 7,
+      "transaction_type": "issue_request",
+      "transaction_id": "jfvirjefw",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "1646076706135"
+    },
+    {
+      "id": "1005",
+      "upc": "1679602-ZZZM",
+      "product_id": "nXvj2dXf4qtmYTvX",
+      "stock_in": 0,
+      "stock_out": 4,
+      "physical_balance": 17,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 3,
       "virtual_balance": 10,
-      "transaction_type":"checkout",
-      "transaction_id":"erofedfief3dq",
-      "created_by_id":"m6TzUZoYNJpgprUQ",
-      "created_at":"1646076706135"
-   },
-   {
-      "id":"ifjiojf4",
-      "upc":"1679602-CZZM",
-      "product_id":"Lfik2R1H8tAZG1bm",
-      "stock_in":30,
-      "stock_out":0,
-      "physical_balance" : 30,
-      "issue_requests_created":0,
-      "issue_requests_rejected":0,
+      "transaction_type": "checkout",
+      "transaction_id": "erofedfief3dq",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "1646076706135"
+    },
+    {
+      "id": "1006",
+      "upc": "1679602-ZZZM",
+      "product_id": "nXvj2dXf4qtmYTvX",
+      "stock_in": 0,
+      "stock_out": 4,
+      "physical_balance": 13,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 10,
+      "transaction_type": "checkout",
+      "transaction_id": "erofedfief3dq",
+      "created_by_id": "1005",
+      "created_at": "1646076706135",
+      "created_by": {
+        "id": "1005",
+        "first_name": "Sophia",
+        "last_name": "Joy",
+        "email": "joy@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "stock-balances": [
+    {
+      "id": "1001",
+      "upc": "1679601-ZZZL",
+      "product_id": "1002",
+      "stock_in": 0,
+      "stock_out": 0,
+      "physical_balance": 23,
+      "issue_requests_created": 10,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 13,
+      "transaction_type": "issue request",
+      "transaction_id": "getrefeweewf",
+      "created_by_id": "1005",
+      "created_at": "1646076706135",
+      "created_by": {
+        "id": "1005",
+        "first_name": "Sophia",
+        "last_name": "Joy",
+        "email": "joy@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "upc": "1679602-ZZZM",
+      "product_id": "1001",
+      "stock_in": 0,
+      "stock_out": 4,
+      "physical_balance": 13,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 0,
+      "virtual_balance": 10,
+      "transaction_type": "checkout",
+      "transaction_id": "erofedfief3dq",
+      "created_by_id": "1005",
+      "created_at": "1646076706135",
+      "created_by": {
+        "id": "1005",
+        "first_name": "Sophia",
+        "last_name": "Joy",
+        "email": "joy@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1003",
+      "upc": "1679602-CZZM",
+      "product_id": "1004",
+      "stock_in": 30,
+      "stock_out": 0,
+      "physical_balance": 30,
+      "issue_requests_created": 0,
+      "issue_requests_rejected": 0,
       "virtual_balance": 0,
-      "transaction_type":"checkin",
-      "transaction_id":"dfnweifnwef",
-      "created_by_id":"m6TzUZoYNJpgprUQ",
-      "created_at":"1646076706135"
-   }
-   ]
+      "transaction_type": "checkin",
+      "transaction_id": "dfnweifnwef",
+      "created_by_id": "m6TzUZoYNJpgprUQ",
+      "created_at": "1646076706135"
+    }
+  ],
+  "purchase-requests": [
+    {
+      "id": "1001",
+      "created_at": "2022-03-03T03:36:08.245Z",
+      "created_by_id": "100",
+      "order_id": 1,
+      "logs": [
+        {
+          "id": 1,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1002",
+          "stage": 0,
+          "remarks": "demo",
+          "created_by":   {
+            "id": "1001",
+            "first_name": "James",
+            "last_name": "Mokami",
+            "email": "james@email.com",
+            "role": {
+              "id": "fLJqYgH2yEOHjNz8",
+              "name": "System admin",
+              "description": "The overall admin",
+              "permissions": []
+            },
+            "role_id": "fLJqYgH2yEOHjNz8",
+            "status": 1,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "1001",
+          "qty_requested": 10,
+          "qty_verified": 0,
+          "qty_approved": 0,
+          "product_id": "1002"
+        }
+      ],
+      "created_by":   {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "created_at": "2022-03-03T03:40:53.333Z",
+      "created_by_id": "1001",
+      "order_id": 2,
+      "logs": [
+        {
+          "id": 2,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1001",
+          "stage": 0,
+          "remarks": "This is a sample request ",
+          "created_by":   {
+            "id": "1001",
+            "first_name": "James",
+            "last_name": "Mokami",
+            "email": "james@email.com",
+            "role": {
+              "id": "fLJqYgH2yEOHjNz8",
+              "name": "System admin",
+              "description": "The overall admin",
+              "permissions": []
+            },
+            "role_id": "fLJqYgH2yEOHjNz8",
+            "status": 1,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        },
+        {
+          "id": 3,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1002",
+          "stage": 1,
+          "remarks": "This is a sample verification ",
+          "created_by": {
+            "id": "1002",
+            "first_name": "Leonard",
+            "last_name": "Wachira",
+            "email": "eachira@email.com",
+            "role": {
+              "id": "ImaMkvtYJ8aGhd9b",
+              "name": "Field Engineer",
+              "description": "The field engineer",
+              "permissions": []
+            },
+            "role_id": "ImaMkvtYJ8aGhd9b",
+            "status": 0,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "1001",
+          "qty_requested": 60,
+          "qty_verified": 54,
+          "qty_approved": 0,
+          "product_id": "1001"
+        }
+      ],
+      "created_by":   {
+        "id": "1001",
+        "first_name": "James",
+        "last_name": "Mokami",
+        "email": "james@email.com",
+        "role": {
+          "id": "fLJqYgH2yEOHjNz8",
+          "name": "System admin",
+          "description": "The overall admin",
+          "permissions": []
+        },
+        "role_id": "fLJqYgH2yEOHjNz8",
+        "status": 1,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1003",
+      "created_at": "2022-03-03T03:44:08.135Z",
+      "created_by_id": "1002",
+      "order_id": 3,
+      "logs": [
+        {
+          "id": 4,
+          "created_at": "2022-03-03T03:44:08.135Z",
+          "created_by_id": "1002",
+          "stage": 0,
+          "remarks": "This is a sample request ",
+          "created_by": {
+            "id": "1002",
+            "first_name": "Leonard",
+            "last_name": "Wachira",
+            "email": "eachira@email.com",
+            "role": {
+              "id": "ImaMkvtYJ8aGhd9b",
+              "name": "Field Engineer",
+              "description": "The field engineer",
+              "permissions": []
+            },
+            "role_id": "ImaMkvtYJ8aGhd9b",
+            "status": 0,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        },
+        {
+          "id": 5,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1003",
+          "stage": 1,
+          "remarks": "This is checking stage remarks ",
+          "created_by":     {
+            "id": "1003",
+            "first_name": "Sam",
+            "last_name": "Smith",
+            "email": "smith@email.com",
+            "role": {
+              "id": "ImaMkvtYJ8aGhd9b",
+              "name": "Field Engineer",
+              "description": "The field engineer",
+              "permissions": []
+            },
+            "role_id": "ImaMkvtYJ8aGhd9b",
+            "status": 0,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        },
+        {
+          "id": 6,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1001",
+          "stage": 2,
+          "remarks": "This is a demo approval remarks(rejected) ",
+          "created_by":   {
+            "id": "1001",
+            "first_name": "James",
+            "last_name": "Mokami",
+            "email": "james@email.com",
+            "role": {
+              "id": "fLJqYgH2yEOHjNz8",
+              "name": "System admin",
+              "description": "The overall admin",
+              "permissions": []
+            },
+            "role_id": "fLJqYgH2yEOHjNz8",
+            "status": 1,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "1001",
+          "qty_requested": 53,
+          "qty_verified": 34,
+          "qty_approved": 0,
+          "product_id": "1001"
+        }
+      ],
+      "created_by": {
+        "id": "1002",
+        "first_name": "Leonard",
+        "last_name": "Wachira",
+        "email": "eachira@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1004",
+      "created_at": "2022-03-03T03:44:08.135Z",
+      "created_by_id": "1004",
+      "order_id": 4,
+      "logs": [
+        {
+          "id": 4,
+          "created_at": "2022-03-03T03:44:08.135Z",
+          "created_by_id": "1004",
+          "stage": 0,
+          "remarks": "This is a sample request ",
+          "created_by":     {
+            "id": "1004",
+            "first_name": "Wanjiku",
+            "last_name": "Racheal",
+            "email": "rwanjiku@email.com",
+            "role": {
+              "id": "ImaMkvtYJ8aGhd9b",
+              "name": "Field Engineer",
+              "description": "The field engineer",
+              "permissions": []
+            },
+            "role_id": "ImaMkvtYJ8aGhd9b",
+            "status": 0,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        },
+        {
+          "id": 5,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1003",
+          "stage": 1,
+          "remarks": "This is a demo checking stage remarks ",
+          "created_by":     {
+            "id": "1003",
+            "first_name": "Sam",
+            "last_name": "Smith",
+            "email": "smith@email.com",
+            "role": {
+              "id": "ImaMkvtYJ8aGhd9b",
+              "name": "Field Engineer",
+              "description": "The field engineer",
+              "permissions": []
+            },
+            "role_id": "ImaMkvtYJ8aGhd9b",
+            "status": 0,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        },
+        {
+          "id": 6,
+          "created_at": "2022-03-03T03:37:49.109Z",
+          "created_by_id": "1001",
+          "stage": 2,
+          "remarks": "Request was approved",
+          "created_by":   {
+            "id": "1001",
+            "first_name": "James",
+            "last_name": "Mokami",
+            "email": "james@email.com",
+            "role": {
+              "id": "fLJqYgH2yEOHjNz8",
+              "name": "System admin",
+              "description": "The overall admin",
+              "permissions": []
+            },
+            "role_id": "fLJqYgH2yEOHjNz8",
+            "status": 1,
+            "created_at": "2022-03-07T06:48:09.544Z"
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "1001",
+          "qty_requested": 53,
+          "qty_verified": 50,
+          "qty_approved": 50,
+          "product_id": "1002"
+        }
+      ],
+      "created_by":  {
+        "id": "1004",
+        "first_name": "Wanjiku",
+        "last_name": "Racheal",
+        "email": "rwanjiku@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "id": "1001",
+      "email": "email@email.com",
+      "address": "",
+      "business_name": "Masterwork Automodules",
+      "created_at": "2022-03-04T16:34:06.282Z",
+      "created_by_id": "1002",
+      "telephone": "07011111",
+      "created_by": {
+        "id": "1004",
+        "first_name": "Wanjiku",
+        "last_name": "Racheal",
+        "email": "rwanjiku@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "email": "email@email.com",
+      "address": "",
+      "business_name": "Microelectronics",
+      "created_at": "2022-03-04T16:34:06.282Z",
+      "created_by_id": "1004",
+      "telephone": "070000111",
+      "created_by": {
+        "id": "1004",
+        "first_name": "Wanjiku",
+        "last_name": "Racheal",
+        "email": "rwanjiku@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "rfqs": [
+    {
+      "id": "1001",
+      "created_by_id": "1004",
+      "created_at": "2022-03-04T19:09:42.820Z",
+      "closing_date": "2022-03-13T21:00:00.000Z",
+      "order_id": 1,
+      "purchase_request_id": "1001",
+      "items": [
+        {
+          "id": "1001",
+          "qty": 54,
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "product_id": "1001",
+          "uom_id": "1001",
+          "created_by_id": "10001",
+          "product": {
+            "id": "1002",
+            "item_code": "MDTEQNC71O-083",
+            "mpn": "NC7100",
+            "description": "NC7100",
+            "eoq": 15,
+            "minl": 10,
+            "rol": 20,
+            "maxl": 50,
+            "created_by_id": "1001",
+            "physical_balance": 23
+          }
+        }
+      ],
+      "vendors": [
+        {
+          "id": "1001",
+          "vendor_id": "1001",
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "created_by_id": "1001",
+          "vendor": {
+            "id": "1001",
+            "email": "email@email.com",
+            "address": "",
+            "business_name": "Masterwork Automodules",
+            "created_at": "2022-03-04T16:34:06.282Z",
+            "created_by_id": "1001",
+            "telephone": "07011111"
+          }
+        }
+      ],
+      "created_by": {
+        "id": "1004",
+        "first_name": "Wanjiku",
+        "last_name": "Racheal",
+        "email": "rwanjiku@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    },
+    {
+      "id": "1002",
+      "created_by_id": "1004",
+      "created_at": "2022-03-04T19:09:42.820Z",
+      "closing_date": "2022-03-13T21:00:00.000Z",
+      "order_id": 2,
+      "purchase_request_id": "1002",
+      "items": [
+        {
+          "id": "1001",
+          "qty": 34,
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "product_id": "1001",
+          "uom_id": "1001",
+          "created_by_id": "10001",
+          "product": {
+            "id": "1002",
+            "item_code": "MDTEQNC71O-083",
+            "mpn": "NC7100",
+            "description": "NC7100",
+            "eoq": 15,
+            "minl": 10,
+            "rol": 20,
+            "maxl": 50,
+            "created_by_id": "1001",
+            "physical_balance": 17
+          }
+        }
+      ],
+      "vendors": [
+        {
+          "id": "1001",
+          "vendor_id": "1001",
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "created_by_id": "1001",
+          "vendor": {
+            "id": "1001",
+            "email": "email@email.com",
+            "address": "",
+            "business_name": "Masterwork Automodules",
+            "created_at": "2022-03-04T16:34:06.282Z",
+            "created_by_id": "1001",
+            "telephone": "07011111"
+          }
+        }
+      ],
+      "created_by": {
+        "id": "1004",
+        "first_name": "Wanjiku",
+        "last_name": "Racheal",
+        "email": "rwanjiku@email.com",
+        "role": {
+          "id": "ImaMkvtYJ8aGhd9b",
+          "name": "Field Engineer",
+          "description": "The field engineer",
+          "permissions": []
+        },
+        "role_id": "ImaMkvtYJ8aGhd9b",
+        "status": 0,
+        "created_at": "2022-03-07T06:48:09.544Z"
+      }
+    }
+  ],
+  "currencies": [
+    {
+      "id": 1,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AED",
+      "name": "UAE dirham"
+    },
+    {
+      "id": 2,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AFN",
+      "name": "Afghan afghani"
+    },
+    {
+      "id": 3,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "ALL",
+      "name": "Albanian lek"
+    },
+    {
+      "id": 4,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AMD",
+      "name": "Armenian dram"
+    },
+    {
+      "id": 5,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "ANG",
+      "name": "Netherlands Antillean gulden"
+    },
+    {
+      "id": 6,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AOA",
+      "name": "Angolan kwanza"
+    },
+    {
+      "id": 7,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "ARS",
+      "name": "Argentine peso"
+    },
+    {
+      "id": 8,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AUD",
+      "name": "Australian dollar"
+    },
+    {
+      "id": 9,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AWG",
+      "name": "Aruban florin"
+    },
+    {
+      "id": 10,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "AZN",
+      "name": "Azerbaijani manat"
+    },
+    {
+      "id": 11,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BAM",
+      "name": "Bosnia and Herzegovina konvertibilna marka"
+    },
+    {
+      "id": 12,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BBD",
+      "name": "Barbadian dollar"
+    },
+    {
+      "id": 13,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BDT",
+      "name": "Bangladeshi taka"
+    },
+    {
+      "id": 14,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BGN",
+      "name": "Bulgarian lev"
+    },
+    {
+      "id": 15,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BHD",
+      "name": "Bahraini dinar"
+    },
+    {
+      "id": 16,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BIF",
+      "name": "Burundi franc"
+    },
+    {
+      "id": 17,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BMD",
+      "name": "Bermudian dollar"
+    },
+    {
+      "id": 18,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BND",
+      "name": "Brunei dollar"
+    },
+    {
+      "id": 19,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BOB",
+      "name": "Bolivian boliviano"
+    },
+    {
+      "id": 20,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BRL",
+      "name": "Brazilian real"
+    },
+    {
+      "id": 21,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BSD",
+      "name": "Bahamian dollar"
+    },
+    {
+      "id": 22,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BTN",
+      "name": "Bhutanese ngultrum"
+    },
+    {
+      "id": 23,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BWP",
+      "name": "Botswana pula"
+    },
+    {
+      "id": 24,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BYR",
+      "name": "Belarusian ruble"
+    },
+    {
+      "id": 25,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "BZD",
+      "name": "Belize dollar"
+    },
+    {
+      "id": 26,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CAD",
+      "name": "Canadian dollar"
+    },
+    {
+      "id": 27,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CDF",
+      "name": "Congolese franc"
+    },
+    {
+      "id": 28,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CHF",
+      "name": "Swiss franc"
+    },
+    {
+      "id": 29,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CLP",
+      "name": "Chilean peso"
+    },
+    {
+      "id": 30,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CNY",
+      "name": "Chinese/Yuan renminbi"
+    },
+    {
+      "id": 31,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "COP",
+      "name": "Colombian peso"
+    },
+    {
+      "id": 32,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CRC",
+      "name": "Costa Rican colon"
+    },
+    {
+      "id": 33,
+      "created_at": "2022-03-07T07:21:56.529Z",
+      "created_by_id": "1001",
+      "code": "CUC",
+      "name": "Cuban peso"
+    },
+    {
+      "id": 34,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "CVE",
+      "name": "Cape Verdean escudo"
+    },
+    {
+      "id": 35,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "CZK",
+      "name": "Czech koruna"
+    },
+    {
+      "id": 36,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "DJF",
+      "name": "Djiboutian franc"
+    },
+    {
+      "id": 37,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "DKK",
+      "name": "Danish krone"
+    },
+    {
+      "id": 38,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "DOP",
+      "name": "Dominican peso"
+    },
+    {
+      "id": 39,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "DZD",
+      "name": "Algerian dinar"
+    },
+    {
+      "id": 40,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "EEK",
+      "name": "Estonian kroon"
+    },
+    {
+      "id": 41,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "EGP",
+      "name": "Egyptian pound"
+    },
+    {
+      "id": 42,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "ERN",
+      "name": "Eritrean nakfa"
+    },
+    {
+      "id": 43,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "ETB",
+      "name": "Ethiopian birr"
+    },
+    {
+      "id": 44,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "EUR",
+      "name": "European Euro"
+    },
+    {
+      "id": 45,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "FJD",
+      "name": "Fijian dollar"
+    },
+    {
+      "id": 46,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "FKP",
+      "name": "Falkland Islands pound"
+    },
+    {
+      "id": 47,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GBP",
+      "name": "British pound"
+    },
+    {
+      "id": 48,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GEL",
+      "name": "Georgian lari"
+    },
+    {
+      "id": 49,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GHS",
+      "name": "Ghanaian cedi"
+    },
+    {
+      "id": 50,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GIP",
+      "name": "Gibraltar pound"
+    },
+    {
+      "id": 51,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GMD",
+      "name": "Gambian dalasi"
+    },
+    {
+      "id": 52,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GNF",
+      "name": "Guinean franc"
+    },
+    {
+      "id": 53,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GQE",
+      "name": "Central African CFA franc"
+    },
+    {
+      "id": 54,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GTQ",
+      "name": "Guatemalan quetzal"
+    },
+    {
+      "id": 55,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "GYD",
+      "name": "Guyanese dollar"
+    },
+    {
+      "id": 56,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "HKD",
+      "name": "Hong Kong dollar"
+    },
+    {
+      "id": 57,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "HNL",
+      "name": "Honduran lempira"
+    },
+    {
+      "id": 58,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "HRK",
+      "name": "Croatian kuna"
+    },
+    {
+      "id": 59,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "HTG",
+      "name": "Haitian gourde"
+    },
+    {
+      "id": 60,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "HUF",
+      "name": "Hungarian forint"
+    },
+    {
+      "id": 61,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "IDR",
+      "name": "Indonesian rupiah"
+    },
+    {
+      "id": 62,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "ILS",
+      "name": "Israeli new sheqel"
+    },
+    {
+      "id": 63,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "INR",
+      "name": "Indian rupee"
+    },
+    {
+      "id": 64,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "IQD",
+      "name": "Iraqi dinar"
+    },
+    {
+      "id": 65,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "IRR",
+      "name": "Iranian rial"
+    },
+    {
+      "id": 66,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "ISK",
+      "name": "Icelandic króna"
+    },
+    {
+      "id": 67,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "JMD",
+      "name": "Jamaican dollar"
+    },
+    {
+      "id": 68,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "JOD",
+      "name": "Jordanian dinar"
+    },
+    {
+      "id": 69,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "JPY",
+      "name": "Japanese yen"
+    },
+    {
+      "id": 70,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KES",
+      "name": "Kenyan shilling"
+    },
+    {
+      "id": 71,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KGS",
+      "name": "Kyrgyzstani som"
+    },
+    {
+      "id": 72,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KHR",
+      "name": "Cambodian riel"
+    },
+    {
+      "id": 73,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KMF",
+      "name": "Comorian franc"
+    },
+    {
+      "id": 74,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KPW",
+      "name": "North Korean won"
+    },
+    {
+      "id": 75,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KRW",
+      "name": "South Korean won"
+    },
+    {
+      "id": 76,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KWD",
+      "name": "Kuwaiti dinar"
+    },
+    {
+      "id": 77,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KYD",
+      "name": "Cayman Islands dollar"
+    },
+    {
+      "id": 78,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "KZT",
+      "name": "Kazakhstani tenge"
+    },
+    {
+      "id": 79,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LAK",
+      "name": "Lao kip"
+    },
+    {
+      "id": 80,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LBP",
+      "name": "Lebanese lira"
+    },
+    {
+      "id": 81,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LKR",
+      "name": "Sri Lankan rupee"
+    },
+    {
+      "id": 82,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LRD",
+      "name": "Liberian dollar"
+    },
+    {
+      "id": 83,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LSL",
+      "name": "Lesotho loti"
+    },
+    {
+      "id": 84,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LTL",
+      "name": "Lithuanian litas"
+    },
+    {
+      "id": 85,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LVL",
+      "name": "Latvian lats"
+    },
+    {
+      "id": 86,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "LYD",
+      "name": "Libyan dinar"
+    },
+    {
+      "id": 87,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MAD",
+      "name": "Moroccan dirham"
+    },
+    {
+      "id": 88,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MDL",
+      "name": "Moldovan leu"
+    },
+    {
+      "id": 89,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MGA",
+      "name": "Malagasy ariary"
+    },
+    {
+      "id": 90,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MKD",
+      "name": "Macedonian denar"
+    },
+    {
+      "id": 91,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MMK",
+      "name": "Myanma kyat"
+    },
+    {
+      "id": 92,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MNT",
+      "name": "Mongolian tugrik"
+    },
+    {
+      "id": 93,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MOP",
+      "name": "Macanese pataca"
+    },
+    {
+      "id": 94,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MRO",
+      "name": "Mauritanian ouguiya"
+    },
+    {
+      "id": 95,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MUR",
+      "name": "Mauritian rupee"
+    },
+    {
+      "id": 96,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MVR",
+      "name": "Maldivian rufiyaa"
+    },
+    {
+      "id": 97,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MWK",
+      "name": "Malawian kwacha"
+    },
+    {
+      "id": 98,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MXN",
+      "name": "Mexican peso"
+    },
+    {
+      "id": 99,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MYR",
+      "name": "Malaysian ringgit"
+    },
+    {
+      "id": 100,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "MZM",
+      "name": "Mozambican metical"
+    },
+    {
+      "id": 101,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NAD",
+      "name": "Namibian dollar"
+    },
+    {
+      "id": 102,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NGN",
+      "name": "Nigerian naira"
+    },
+    {
+      "id": 103,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NIO",
+      "name": "Nicaraguan córdoba"
+    },
+    {
+      "id": 104,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NOK",
+      "name": "Norwegian krone"
+    },
+    {
+      "id": 105,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NPR",
+      "name": "Nepalese rupee"
+    },
+    {
+      "id": 106,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "NZD",
+      "name": "New Zealand dollar"
+    },
+    {
+      "id": 107,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "OMR",
+      "name": "Omani rial"
+    },
+    {
+      "id": 108,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PAB",
+      "name": "Panamanian balboa"
+    },
+    {
+      "id": 109,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PEN",
+      "name": "Peruvian nuevo sol"
+    },
+    {
+      "id": 110,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PGK",
+      "name": "Papua New Guinean kina"
+    },
+    {
+      "id": 111,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PHP",
+      "name": "Philippine peso"
+    },
+    {
+      "id": 112,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PKR",
+      "name": "Pakistani rupee"
+    },
+    {
+      "id": 113,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PLN",
+      "name": "Polish zloty"
+    },
+    {
+      "id": 114,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "PYG",
+      "name": "Paraguayan guarani"
+    },
+    {
+      "id": 115,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "QAR",
+      "name": "Qatari riyal"
+    },
+    {
+      "id": 116,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "RON",
+      "name": "Romanian leu"
+    },
+    {
+      "id": 117,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "RSD",
+      "name": "Serbian dinar"
+    },
+    {
+      "id": 118,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "RUB",
+      "name": "Russian ruble"
+    },
+    {
+      "id": 119,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SAR",
+      "name": "Saudi riyal"
+    },
+    {
+      "id": 120,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SBD",
+      "name": "Solomon Islands dollar"
+    },
+    {
+      "id": 121,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SCR",
+      "name": "Seychellois rupee"
+    },
+    {
+      "id": 122,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SDG",
+      "name": "Sudanese pound"
+    },
+    {
+      "id": 123,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SEK",
+      "name": "Swedish krona"
+    },
+    {
+      "id": 124,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SGD",
+      "name": "Singapore dollar"
+    },
+    {
+      "id": 125,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SHP",
+      "name": "Saint Helena pound"
+    },
+    {
+      "id": 126,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SLL",
+      "name": "Sierra Leonean leone"
+    },
+    {
+      "id": 127,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SOS",
+      "name": "Somali shilling"
+    },
+    {
+      "id": 128,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SRD",
+      "name": "Surinamese dollar"
+    },
+    {
+      "id": 129,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SYP",
+      "name": "Syrian pound"
+    },
+    {
+      "id": 130,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "SZL",
+      "name": "Swazi lilangeni"
+    },
+    {
+      "id": 131,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "THB",
+      "name": "Thai baht"
+    },
+    {
+      "id": 132,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TJS",
+      "name": "Tajikistani somoni"
+    },
+    {
+      "id": 133,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TMT",
+      "name": "Turkmen manat"
+    },
+    {
+      "id": 134,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TND",
+      "name": "Tunisian dinar"
+    },
+    {
+      "id": 135,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TRY",
+      "name": "Turkish new lira"
+    },
+    {
+      "id": 136,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TTD",
+      "name": "Trinidad and Tobago dollar"
+    },
+    {
+      "id": 137,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TWD",
+      "name": "New Taiwan dollar"
+    },
+    {
+      "id": 138,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "TZS",
+      "name": "Tanzanian shilling"
+    },
+    {
+      "id": 139,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "UAH",
+      "name": "Ukrainian hryvnia"
+    },
+    {
+      "id": 140,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "UGX",
+      "name": "Ugandan shilling"
+    },
+    {
+      "id": 141,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "USD",
+      "name": "United States dollar"
+    },
+    {
+      "id": 142,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "UYU",
+      "name": "Uruguayan peso"
+    },
+    {
+      "id": 143,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "UZS",
+      "name": "Uzbekistani som"
+    },
+    {
+      "id": 144,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "VEB",
+      "name": "Venezuelan bolivar"
+    },
+    {
+      "id": 145,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "VND",
+      "name": "Vietnamese dong"
+    },
+    {
+      "id": 146,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "VUV",
+      "name": "Vanuatu vatu"
+    },
+    {
+      "id": 147,
+      "created_at": "2022-03-07T07:21:56.530Z",
+      "created_by_id": "1001",
+      "code": "WST",
+      "name": "Samoan tala"
+    },
+    {
+      "id": 148,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "XAF",
+      "name": "Central African CFA franc"
+    },
+    {
+      "id": 149,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "XCD",
+      "name": "East Caribbean dollar"
+    },
+    {
+      "id": 150,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "XDR",
+      "name": "Special Drawing Rights"
+    },
+    {
+      "id": 151,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "XOF",
+      "name": "West African CFA franc"
+    },
+    {
+      "id": 152,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "XPF",
+      "name": "CFP franc"
+    },
+    {
+      "id": 153,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "YER",
+      "name": "Yemeni rial"
+    },
+    {
+      "id": 154,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "ZAR",
+      "name": "South African rand"
+    },
+    {
+      "id": 155,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "ZMK",
+      "name": "Zambian kwacha"
+    },
+    {
+      "id": 156,
+      "created_at": "2022-03-07T07:21:56.531Z",
+      "created_by_id": "1001",
+      "code": "ZWR",
+      "name": "Zimbabwean dollar"
+    }
+  ],
+  "purchase-orders": [
+    {
+      "id": "1001",
+      "created_by_id": "1001",
+      "created_at": "2022-03-04T19:09:42.820Z",
+      "doc_date": "2022-03-13T21:00:00.000Z",
+      "order_id": 1,
+      "rfq_id": "1001",
+      "currency_id": "1001",
+      "items": [
+        {
+          "id": "1001",
+          "qty": 54,
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "product_id": "1001",
+          "uom_id": "1001",
+          "created_by_id": "10001",
+          "unit_price": 1000,
+          "product": {
+            "id": "1002",
+            "item_code": "MDTEQNC71O-083",
+            "mpn": "NC7100",
+            "description": "NC7100",
+            "eoq": 15,
+            "minl": 10,
+            "rol": 20,
+            "maxl": 50,
+            "physical_balance": 39,
+            "created_by_id": "1001"
+          }
+        }
+      ],
+      "vendors": [
+        {
+          "id": "1001",
+          "email": "email@email.com",
+          "address": "",
+          "business_name": "Masterwork Automodules",
+          "created_at": "2022-03-04T16:34:06.282Z",
+          "created_by_id": "1001",
+          "telephone": "07011111"
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "created_by_id": "1001",
+      "created_at": "2022-03-04T19:09:42.820Z",
+      "doc_date": "2022-03-13T21:00:00.000Z",
+      "order_id": 2,
+      "rfq_id": "1001",
+      "currency_id": "1001",
+      "items": [
+        {
+          "id": "1001",
+          "qty": 54,
+          "created_at": "2022-03-13T21:00:00.000Z",
+          "product_id": "1001",
+          "uom_id": "1001",
+          "created_by_id": "10001",
+          "unit_price": 1000,
+          "product": {
+            "id": "1002",
+            "item_code": "MDTEQNC71O-083",
+            "mpn": "NC7100",
+            "description": "NC7100",
+            "eoq": 15,
+            "minl": 10,
+            "rol": 20,
+            "maxl": 50,
+            "physical_balance": 39,
+            "created_by_id": "1001"
+          }
+        }
+      ],
+      "vendors": [
+        {
+          "id": "1001",
+          "email": "email@email.com",
+          "address": "",
+          "business_name": "Masterwork Automodules",
+          "created_at": "2022-03-04T16:34:06.282Z",
+          "created_by_id": "1001",
+          "telephone": "07011111"
+        }
+      ],
+      "currency": {
+        "id": "1001",
+        "code": "KES",
+        "name": "Kenyan shilling"
+      }
+    }
+  ]
 }

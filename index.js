@@ -28,11 +28,12 @@ server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
     if (req.query && req.query.search) {
         req.query['q'] = req.query.search;
-        req.query['_limit'] = 10;
     }
 
     if (req.method === 'POST') {
-        req.body.created_at = Date.now()
+        req.body.created_at = Date.now();
+        req.body.created_by_id = req.body.created_by_id||'10001';
+
     }
 
     next();
