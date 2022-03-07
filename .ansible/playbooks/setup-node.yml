@@ -23,8 +23,7 @@
       ansible.builtin.shell:  |
         . "{{ ansible_env.HOME }}/.nvm/nvm.sh"
         export NVM_DIR="{{ ansible_env.HOME }}/.nvm"
-        declare version
-        version=$(nvm current)
+        export  version=$(nvm current)
         "{{ ansible_env.HOME }}/.nvm/versions/node/$version/bin/npm install {{item}} -g"
       loop:
         - yarn
