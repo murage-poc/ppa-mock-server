@@ -22,6 +22,7 @@
     - name: Install global node packages
       ansible.builtin.shell:  |
         . "{{ ansible_env.HOME }}/.nvm/nvm.sh"
+        export NVM_DIR="{{ ansible_env.HOME }}/.nvm"
         "{{ ansible_env.HOME }}/.nvm/versions/node/$(nvm current)/bin/npm install {{item}} -g"
       loop:
         - yarn
